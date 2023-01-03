@@ -1,0 +1,158 @@
+* {}
+
+
+
+
+/*    CSS NAV BAR    */
+
+
+h1 {
+    text-align: center;
+
+}
+
+.box-container h2 {
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: #e5e7e6;
+    gap: 2rem;
+    /*espacement entre les éléments du flex*/
+}
+
+.box-prepa {
+
+    border: 1px solid;
+    border-radius: 1rem;
+    max-width: 20%;
+    text-align: center;
+    background-color: #4a69bd;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.box-prepa:hover {}
+
+.box-concours {
+    border: 1px solid;
+    border-radius: 1rem;
+    max-width: 20%;
+    text-align: center;
+    background-color: #60a3bc;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.box-inge {
+    border: 1px solid;
+    border-radius: 1rem;
+    max-width: 20%;
+    text-align: center;
+    background-color: #A7001E;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.txt-condition {
+    margin-top: 3rem;
+    color: #012169;
+}
+
+
+
+.debouches {
+    margin: 2rem;
+}
+
+.debouches li {
+    margin-bottom: 2rem;
+    display: block;
+}
+
+h3 {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+    color: #585858
+}
+
+.debouches li {
+    list-style: none;
+}
+
+.debouches p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.debouches li::before {
+    content: "\2022";
+    color: red;
+    display: inline-block;
+    width: 3rem;
+}
+
+
+
+.association h4 {
+    margin-left: 10px;
+}
+
+.asso {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.association h1 {
+    color: #012169;
+}
+
+.association h2 {
+    color: #1B9476;
+}
+
+.association img {
+    max-width: 1000px;
+    padding: 10rem;
+}
+
+.association {
+    text-align: center;
+    padding: 10rem;
+}
+
+.association p {
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .box-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .box {
+        max-width: unset;
+    }
+
+    h3 {
+        color: red;
+    }
+
+    img {
+        max-width: 400px;
+        padding: 0rem
+    }
+}
